@@ -1,0 +1,108 @@
+/* ======================================================= */
+/* ==              Styles                 ==
+   =======================================================  */
+
+
+/* Allgemeine Einstellungen
+======================== */
+.vh70 {
+  height: 80vh;
+}
+
+   /* Vorgaben für den Body-Bereich!!
+=============================== */
+
+body {
+    
+    /* -webkit-background-size: cover;
+    -moz-background-size:cover;
+    background-size:50% auto; 
+    -o-background-size: cover; */
+    background-size: 100vw 100vh;
+
+  }
+  .body-index {
+    background: url('../../media/background/pic7.jpg') no-repeat center fixed;
+    background-size: 100vw 100vh;
+
+  }
+  .body-speisekarte{
+    background: url('../../media/background/pic1.jpg') no-repeat center fixed;
+    background-size: 100vw 100vh;
+
+  }
+  .body-wochenkarte{
+    background: url('../../media/background/pic2.jpg') no-repeat center fixed;
+    background-size: 100vw 100vh;
+  }
+   .body-getraenke{
+    background: url('../../media/background/pic3.jpg') no-repeat center fixed;
+    background-size: 100vw 100vh;
+  }
+  .body-reservieren{
+    background: url('../../media/background/pic3.jpg') no-repeat center fixed;
+    /* background-size:100em; */
+    background-size: 100vw 100vh;
+
+  }
+  .body-veranstaltungen{
+    background: url('../../media/background/pic2.jpg') no-repeat center fixed;
+    background-size: 100vw 100vh;
+
+  }
+  .body-kontakt{
+    background: url('../../media/background/pic3.jpg') no-repeat center fixed;
+    background-size: 100vw 100vh;
+
+  }
+  .body-impressum{
+    background: url('../../media/background/pic1.jpg') no-repeat center;
+  }
+  .body-datenschutz{
+    background: url('../../media/background/pic4.jpg') no-repeat center;
+  }
+
+  /* Positionierung für DIVs etc. 
+     ============================ */
+
+/* Positionierung etwas weiter nach unten mit Abstand zum Hauptmenü */
+.mtop20{
+  margin-top:20%;
+}
+.mtop5{
+  margin-top:5%;
+}
+.mtop10{
+  margin-top:10%;
+}
+
+.wid10{
+  width: 15px;
+}
+.opacity_dark50{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+  /* Formatierungen für Texte etc. 
+     ============================ */
+
+.dashboard_title{
+  font-weight: bold;
+  text-decoration:none;
+}
+
+.table_text{
+  text-decoration: none;
+  color:black;
+}
+.table_textttile{
+  font-weight: bold;
+  color:black;
+  text-decoration: none;
+}
+.danke{
+  font-style: italic;
+  color:black;
+  text-decoration: none;
+}
